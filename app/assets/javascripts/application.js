@@ -12,4 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require customInput.jquery
+//= require jquery.dropkick-1.0.3
 //= require_tree .
