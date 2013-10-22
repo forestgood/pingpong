@@ -11,8 +11,6 @@ BebasNeue/bebasneue.woff: BebasNeue/bebasneue-3300ace488bd0de901f6552373b4486e.w
 BebasNeue/bebasneue/index.woff: BebasNeue/bebasneue-3300ace488bd0de901f6552373b4486e.woff
 Belizio/belizio-bold.ttf: Belizio/belizio-bold-28a6cbc1258b7ded263d939e5dc4df42.ttf
 Belizio/belizio-bold/index.ttf: Belizio/belizio-bold-28a6cbc1258b7ded263d939e5dc4df42.ttf
-PIE.htc: PIE-579080dd978a83783940fcf964f09740.htc
-PIE/index.htc: PIE-579080dd978a83783940fcf964f09740.htc
 ProximaNova-Bold (1)/proximanova-bold.eot: ProximaNova-Bold (1)/proximanova-bold-b62069f339e7a5982b6d808868e77616.eot
 ProximaNova-Bold (1)/proximanova-bold/index.eot: ProximaNova-Bold (1)/proximanova-bold-b62069f339e7a5982b6d808868e77616.eot
 ProximaNova-Bold (1)/proximanova-bold.svg: ProximaNova-Bold (1)/proximanova-bold-38189794f063a3fe252670c0916f0db7.svg
@@ -45,7 +43,6 @@ belizio-bold/belizio-bold.ttf: belizio-bold/belizio-bold-a2ee32b690a93013dea4539
 belizio-bold/belizio-bold/index.ttf: belizio-bold/belizio-bold-a2ee32b690a93013dea4539fb10bc5d0.ttf
 belizio-bold/belizio-bold.woff: belizio-bold/belizio-bold-c5113d0bbcfbdce5749891a0cde2f13e.woff
 belizio-bold/belizio-bold/index.woff: belizio-bold/belizio-bold-c5113d0bbcfbdce5749891a0cde2f13e.woff
-index.html: index-aedf0de5333f500df510d019d546515a.html
 proximanova/Proxima Nova Fonts Collection.jpg: proximanova/Proxima Nova Fonts Collection-2f2a7fe1d651835144b0801d0c689d01.jpg
 proximanova/Proxima Nova Fonts Collection/index.jpg: proximanova/Proxima Nova Fonts
   Collection-2f2a7fe1d651835144b0801d0c689d01.jpg
@@ -109,7 +106,7 @@ logo.png: logo-b72f10a94e0d5a7e4095c64ec66c5e38.png
 logo/index.png: logo-b72f10a94e0d5a7e4095c64ec66c5e38.png
 logo1.png: logo1-dc3359df0211e425bcfad626db55db91.png
 logo1/index.png: logo1-dc3359df0211e425bcfad626db55db91.png
-application.js: application-577bac5e47c609080e1dc740dad7e119.js
-application/index.js: application-577bac5e47c609080e1dc740dad7e119.js
-application.css: application-e9a7bea2d93d64f9a013ffb83576ed9a.css
-application/index.css: application-e9a7bea2d93d64f9a013ffb83576ed9a.css
+application.js: application-d32382ca2dd1458fc95a233ba6e18684.js
+application/index.js: application-d32382ca2dd1458fc95a233ba6e18684.js
+application.css: application-bb20d6c3297efd93cca0f48bbccd9ed2.css
+application/index.css: application-bb20d6c3297efd93cca0f48bbccd9ed2.css
