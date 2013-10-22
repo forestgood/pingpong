@@ -69,5 +69,5 @@ Pingpong::Application.configure do
 config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
 # Precompile additional assets
-config.assets.precompile += %w( .svg .eot .woff .ttf )
+config.assets.precompile += %w( .js .css .svg .eot .woff .ttf )
 end
