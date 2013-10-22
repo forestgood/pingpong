@@ -114,8 +114,8 @@ behavior: url(PIE.htc); position:relative; }
 .mark                                       { margin:0 auto; padding:35px 0 40px 24px;} 
 .mark h5                                    { color:#162a37; font-size:15px; display:inline-block;  font-family: 'ProximaNovaRegular'; padding-right: 15px; font-weight:normal; float:left;} 
 .register-now                               {} 
-.register-now a { width:330px; margin:0 auto; display:block; color:#162a37; font-size:20px; font-family: 'ProximaNovaRegular'; font-weight:normal; text-align:center; background:#fff568; padding:20px 0;border-radius:5px; behavior: url(PIE.htc); position:relative; box-shadow:0 3px 0 0 #CCCCCC;} 
-.register-now a:hover{opacity:0.8;} 
+.register-button  { width:330px; margin:0 auto; display:block; color:#162a37; font-size:20px; font-family: 'ProximaNovaRegular'; font-weight:normal; text-align:center; background:#fff568; padding:20px 0;border-radius:5px; behavior: url(PIE.htc); position:relative; box-shadow:0 3px 0 0 #CCCCCC;} 
+.register-button:hover{opacity:0.8;} 
   
 /* ---------------------------------------------------------*/
   
@@ -145,3 +145,17 @@ behavior: url(PIE.htc); position:relative; }
 .custom-checkbox label img  { position:absolute; top:-13px; left:28px;}
 .custom-checkbox label span { position:absolute; left:75px; top:3px;}
 
+/* users index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}

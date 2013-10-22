@@ -83,23 +83,25 @@
             </div>
             <!-- maincontent Starts -->
             <div class="main-content">
-            	  <input type="text" class="text-field" value="First name *" onclick="if(this.value=='First name *'){this.value=''}" onblur="if(this.value==''){this.value='First name *'}"/>
-                  <input type="text" class="text-field1" value="Last name *" onclick="if(this.value=='Last name *'){this.value=''}" onblur="if(this.value==''){this.value='Last name *'}"/>
+            	<form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post">
+            	  <input id="user_fname" name="user[fname]" type="text" class="text-field" value="First name *" onclick="if(this.value=='First name *'){this.value=''}" onblur="if(this.value==''){this.value='First name *'}"/>
+                  <input id="user_lname" name="user[lname]" type="text" class="text-field1" value="Last name *" onclick="if(this.value=='Last name *'){this.value=''}" onblur="if(this.value==''){this.value='Last name *'}"/>
                   <div class="clear"></div>
-                  <input type="text" class="text-field2" value="Email *" onclick="if(this.value=='Email *'){this.value=''}" onblur="if(this.value==''){this.value='Email *'}"/>
-                  <input type="text" class="text-field" value="Company *" onclick="if(this.value=='Company *'){this.value=''}" onblur="if(this.value==''){this.value='Company *'}"/>
-                  <input type="text" class="text-field1" value="WeWork Location *" onclick="if(this.value=='WeWork Location *'){this.value=''}" onblur="if(this.value=='')
+                  <input id="user_email" name="user[email]" type="text" class="text-field2" value="Email *" onclick="if(this.value=='Email *'){this.value=''}" onblur="if(this.value==''){this.value='Email *'}"/>
+                  <input id="user_company" name="user[company]" type="text" class="text-field" value="Company *" onclick="if(this.value=='Company *'){this.value=''}" onblur="if(this.value==''){this.value='Company *'}"/>
+                  <input id="user_location" name="user[location]"type="text" class="text-field1" value="WeWork Location *" onclick="if(this.value=='WeWork Location *'){this.value=''}" onblur="if(this.value=='')
                   {this.value='WeWork Location *'}"/>
                   <div class="clear"></div>
                   
             	  <div class="mark">
             			<h5>Check if you just wish to network and not participate in the tournament: </h5>
-                        <input type="checkbox"  name="genre" id="check-1" value="action">
+                        <input id="user_pong" name="user[pong]" type="checkbox"  name="genre" id="check-1" value="action">
                         <div class="clear"></div>
            		  </div>
             		<div class="register-now">
-            	  <a href="#">Register now</a>
-                  </div>
+            	  		<input class="register-button" name="commit" type="submit" value="Register Now"/>
+                  	</div>
+                </form>
 			</div>
             <!-- aincontent ends -->
             
