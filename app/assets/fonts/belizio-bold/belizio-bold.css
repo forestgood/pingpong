@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BelizioRegular';
+    src: url('belizio-bold.eot');
+    src: url('belizio-bold.eot') format('embedded-opentype'),
+         url('belizio-bold.woff') format('woff'),
+         url('belizio-bold.ttf') format('truetype'),
+         url('belizio-bold.svg#BelizioRegular') format('svg');
+}
