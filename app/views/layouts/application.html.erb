@@ -37,6 +37,9 @@
 </head>
 
 <body>
+<% flash.each do |key, value| %>
+        <div class="notification_<%= key %>"><%= value %></div>
+      <% end %>	
 <%= yield %>
 </body>
 </html>
